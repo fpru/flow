@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: #FFF;
     color: #1D1F1E;
@@ -776,6 +778,7 @@ body {
     overflow: hidden;
     background-color: #022C22;
     color: #FFF;
+    position: relative;
 }
 
 #panel11 article {
@@ -912,7 +915,7 @@ input[type=email] {
     justify-items: left;
     padding: 0 10%;
     position: absolute;
-    transform: translate(50%, -50%);
+    transform: translate(50%, -65%);
 }
 
 #panel11 .head {
@@ -932,5 +935,5 @@ input[type=email] {
 #socials {
     padding: 10px;
     position: absolute;
-    transform: translate(1600px, -130px);
+    transform: translate(1600px, -170px);
 }
