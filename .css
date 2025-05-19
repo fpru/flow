@@ -42,10 +42,14 @@ body {
 .links button {
     background: none;
     border: none;
-    color: #FFF;
-    font-weight: 350;
     cursor: pointer;
     font-size: 15px;
+}
+
+.links button a {
+    color: #FFF;
+    font-weight: 350;
+    text-decoration: none;
 }
 
 .nav .btn {
@@ -419,11 +423,12 @@ body {
 
 #panel6 #container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 380px);
+    grid-template-columns: repeat(4, 380px);
     gap: 0px;
     justify-items: left;
     padding: -20px 0;
     color: #1D1F1E;
+    overflow-x: auto;
 }
 
 .review {
@@ -816,13 +821,14 @@ body {
 
 #panel11 .btn {
     display: inline-block;
-    padding: 17px 20px;
+    padding: 15px 20px;
     border-radius: 50px;
     text-decoration: none;
     background-color: #BEF264;
     color: #1D1F1E;
     margin: 10px;
     font-size: 15px;
+    border: none;
 }
 
 #panel11 a {
@@ -882,7 +888,7 @@ body {
 input[type=email] {
     border-radius: 50px;
     border: none;
-    padding: 17px 40px;
+    padding: 15px 20px 15px 15px;
     border-radius: 50px;
     text-align: left;
 }
